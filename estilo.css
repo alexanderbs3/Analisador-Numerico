@@ -1,0 +1,70 @@
+/* Estilo Geral */
+body {
+    background-color: rgb(64, 141, 151);
+    font-family: Arial, sans-serif;
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(54, 121, 131);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Seção Principal */
+section {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para <select> */
+select#flista {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Estilo Geral para Divs */
+div {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* Rodapé */
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(54, 121, 131);
+    font-style: italic;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+}
